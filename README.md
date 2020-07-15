@@ -26,3 +26,6 @@ npm i -D vue-router
 npm i -D vuex
 
 npm i -D babel-polyfill //To accept additional command
+
+https://www.youtube.com/watch?v=ps1a3VmCITI&t=625s
+- 11:40

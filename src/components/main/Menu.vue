@@ -7,11 +7,21 @@
 </template>
 
 <script>
-export default {
+import vue from 'vue';
+import {mapState} from 'vuex';
+import tttoption from './menu/tttoption';
+Vue.component('tttoption', tttoption);
 
+export default {
+    computed: mapState(["menus"]), //mapeado de estados de Vuex
+    
 }
 </script>
 
-<style>
-
+<style scoped>
+    ul{
+        margin: 0em auto;
+        padding: 0em;
+        width: 12em;
+    }
 </style>
